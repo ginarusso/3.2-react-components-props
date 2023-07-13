@@ -1,10 +1,11 @@
 // The Movie component accepts the following props:
 // title
 // year Note: the title is a nested prop.
+//getting error with Movie.jsx
 
 import React from 'react'
 
-const Movie = () => {
+const Movie = ({title, year}) => {
 
 let movie1 = {
   title: "An American grandson of the infamous scientist, struggling to prove that his grandfather was not as insane as people believe, is invited to Transylvania, where he discovers the process that reanimates a dead body.",

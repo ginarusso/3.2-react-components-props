@@ -2,7 +2,7 @@
 import React from 'react'
 import Genre from "./Genre"
 import './css/styles.css'
-// import Movie from './Movie'
+import Movie from './Movie'
 
 function Container() {
 
@@ -28,11 +28,11 @@ function Container() {
 
   return (
     <>
-    <div class="container">
+    <div className="container">
       <h1>🎬 Movie App 🎬</h1>
   </div>
   { array.map( (genre, index) => {
-    
+ 
     return ( 
       <>
     <Genre 

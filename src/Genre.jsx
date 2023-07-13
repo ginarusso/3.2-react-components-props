@@ -7,8 +7,9 @@
 // The Genre would have the following:
 // header for the genre title
 // 2 movie components with information about the title and the year
-// import Movie from './Movie'
+
 import './css/styles.css'
+// import Movie from './Movie'
 
 const Genre = ({genre, description, movieTitle1, movieTitle2, year1, year2}) => {
   // let genre = "Comedy"
