@@ -7,8 +7,8 @@
 // The Genre would have the following:
 // header for the genre title
 // 2 movie components with information about the title and the year
-import Movie from './Movie'
-
+// import Movie from './Movie'
+import './css/styles.css'
 
 const Genre = ({genre, description, movieTitle1, movieTitle2, year1, year2}) => {
   // let genre = "Comedy"
@@ -18,14 +18,15 @@ const Genre = ({genre, description, movieTitle1, movieTitle2, year1, year2}) => 
 
   return (
  <div className="genre">  
-    <h1> Genre: {genre} </h1>
-    <p> Description: {description} </p> 
+    <h2> Genre: {genre}</h2>
+    <p> <span>Description:</span> {description}</p> 
     <h2>Movie Title: {movieTitle1}</h2>
+    {/* <Movie year = {year1} /> */}
     <h3>Year: {year1}</h3>
     <h2>Movie Title: {movieTitle2}</h2>
+    {/* <Movie year = {year2} /> */}
     <h3>Year: {year2}</h3>
-    {/* <Movie year = {year1} /> */}
-   
+
 </div>
 )
 }

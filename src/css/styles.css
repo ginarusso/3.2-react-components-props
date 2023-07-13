@@ -1,0 +1,41 @@
+h1 {
+    color: red;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+h2 {
+    margin: 10px;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+}
+
+h3, p {
+    margin-left: 10px;
+}
+
+p {
+    font-size: 16px;
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.genre {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    border: 2px dotted black;
+    border-left: 3px dotted black;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 625px;
+    margin: 0 auto;
+}
