@@ -22,7 +22,8 @@ p {
 }
 
 span {
-    font-weight: bold;
+    color: black;
+    text-shadow: 1px 1px grey;
 }
 
 .genre {
