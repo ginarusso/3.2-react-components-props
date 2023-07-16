@@ -1,3 +1,7 @@
+* {
+    font-family: 'Londrina Solid', cursive;
+}
+
 h1 {
     color: red;
     background-color: black;
@@ -16,14 +20,15 @@ h3, p {
     margin-left: 10px;
 }
 
-p {
-    font-size: 16px;
-
-}
-
 span {
     color: black;
     text-shadow: 1px 1px grey;
+}
+
+img {
+    width: 30%;
+    float: left;
+    margin: 10px 10px;
 }
 
 .genre {
@@ -39,4 +44,8 @@ span {
 .container {
     max-width: 625px;
     margin: 0 auto;
+}
+
+.movie {
+    height: 350px;
 }
